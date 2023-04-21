@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    margin: 2em 6em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #dcdad8;
+}
+h1, h2 {
+    color: #6d2289;
+}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1em;
+}
+small {
+    color: #33bfc2;
+}
+p {
+    margin-bottom: 1em;
+}
+a {
+    color: #399;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

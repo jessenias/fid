@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {  
+    margin: 2em 6em;  
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #dcdad8;
+  }
+  h1, h2 {
+  color: #6d2289;
+  }
+  
+  h1 {
+  font-size: 1.5em;
+  }
+  
+  h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  }
+  
+  small {
+  color: #33bfc2;
+  }
+  
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  li:before {
+  content: "\2022";
+  margin-right: 0.5em;
+  }
+  
+  ol {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0;
+  }
+  
+  p {
+  margin: 1em 0;
+  }
+  
+  a {
+  color: #399;
+  text-decoration: none;
+  border-bottom: 1px solid #399;
+  }
+  
+  a:hover {
+  background-color: #399;
+  color: #fff;
+  }

@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body{
+    background-color: #dcdad8;
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #6d2289;
+    margin-top: 30px;
+  }
+  
+  h2 {
+    color: #6d2289;
+    font-size: 1em;
+  }
+  
+  legend {
+    color: #6d2289;
+  }
+  
+  a {
+    color: #2d7c73;
+  }
+  
+  footer {
+    border-top: 1px solid #57b1dc;
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  footer img {
+    width: 30px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  /* Estilos específicos para el formulario */
+  fieldset {
+    border: 1px solid #1c504c;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #1c504c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #2d7c73;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos específicos para el formulario de pizza */
+  fieldset:nth-of-type(2),
+  fieldset:nth-of-type(3) {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+  }
+  
+  fieldset:nth-of-type(2) legend,
+  fieldset:nth-of-type(3) legend {
+    font-weight: bold;
+  }
+  
+  fieldset:nth-of-type(2) ul,
+  fieldset:nth-of-type(3) ul {
+    column-count: 2;
+    column-gap: 20px;
+  }
+  
+  fieldset:nth-of-type(3) select {
+    width: 50px;
+  }
+  

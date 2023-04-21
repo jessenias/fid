@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+h1{
+    color: #6d2289;
+    border-bottom: 1px solid #6d2289;
+}
+p{
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+h2{
+    color: #c3a6db;
+    margin-left: 100px;
+}
+h3{
+    text-align: center;
+}
+img{
+    float: right;
+    margin: 0 12px;
+}
+body{
+    background-color: #f7f7f7;
+}
+a{
+    color: #c3a6db;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
