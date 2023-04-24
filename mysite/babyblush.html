@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Baby Blush</title>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;500;700&display=swap'; rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="blush.css">
+    <style>
+         </style>
+  </head>
+  <body>
+    <nav>
+		<h1>Alfa</h1>
+		<ul>
+            <li><a href="website.html">Home</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="perfumes.html">Perfumes</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+    <h1>Baby Blush</h1>
+    <img src="rubor.jpg" alt="Rubor">
+    <p>This highly pigmented eye shadow comes in a variety of shades to complement any look.</p>
+    <p>Price: $12</p>
+    <form action="https://checkout.com" method="post">
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+      <br><br>
+      <label for="size">Size:</label>
+      <select id="size" name="size">
+        <option value="small">Small</option>
+       
+        <option value="large">Large</option>
+      </select>
+      <br><br>
+      <button type="submit">Add to Cart</button>
+    </form>
+  </body>
+</html>

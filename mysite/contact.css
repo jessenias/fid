@@ -1,0 +1,80 @@
+/* Font import from Google Web Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Reset default styles for body element */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Navigation menu styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  li {
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 320px;
+    height: 30px;
+    margin: 0 10px;
+    background-size: cover;
+  }
+  
+  a img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  }
